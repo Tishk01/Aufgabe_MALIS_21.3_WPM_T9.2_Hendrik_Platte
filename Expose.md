@@ -4,13 +4,13 @@
 
 ## Lösung (wahrscheinlich) mit Option 1: Python
 
-##Problemstellung: 
+### Problemstellung: 
 Verbesserte und vereinfachte Auswertung der E-Book-Nutzungsstatistiken der UB Mannheim (siehe Aufgabe 1). Die Nutzungsdaten kommen von den Verlagen/Anbietern und liegen in zahlreichen Einzeltabellen in unterschiedlicher Strukturierung vor.
 
-##Ziel:
+### Ziel:
 Ziel des Projekts ist es, die Auswertung der Statistiken zu vereinfachen und die Vergleichbarkeit zu erhöhen. Im Idealfall sollten am Ende für einzelne E-Book-Pakete vergleichbare Kennzahlen stehen wie z. B. Zugriffszahlen insgesamt oder pro Monat, Zugriffszahlen pro Titel, Preis pro Zugriff, Anteil mindestens x-mal genutzter Titel etc. Diese Kennzahlen könnten auch grafisch präsentiert oder durch Grafiken ergänzt werden. Ob eine Kennzahl wie 'Preis pro Zugriff' erstellt werden kann hängt davon ab, ob die Zugriffszahlen auf einzelne Pakete zurückführbar sind. Teilweise liegen nur Gesamtlisten für einen Verlag vor.
 
-##Angedachter Lösungsweg und abzusehende Problemstellungen:
+### Angedachter Lösungsweg und abzusehende Problemstellungen:
 
 Zunächst sollen hilfreiche Kennzahlen für mindestens einen Verlag/Anbieter generiert werden. Ausgehend von einer möglichst einfach strukturierten Excel-Tabelle sollen möglichst viele der oben genannten Kennzahlen berechnet werden. Für die E-Books des Verlags Duncker & Humblot liegen die Zahlen beispielsweise in einfacher Form vor: Die einzelnen Titel sind mit ihren Nutzungszahlen pro Monat gelistet. Diese Zahlen sollten sich mithilfe von Python relativ einfach zusammenfassen und aufbereiten lassen. Das Skript kann dann auf ähnlich strukturierte Tabellen angewendet und ggf. angepasst werden. Basierend auf solchen 'einfachen' Fällen lassen sich ggf. Erkenntnisse gewinnen, die bei der Lösung schwierigerer Fälle helfen können.
 
